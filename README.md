@@ -18,48 +18,4 @@ After processing the data, to analyse it, run the Analysis notebook.
 Do note to edit the file names in the notebooks as necessary. 
 
 
-The file directory structure should look like: 
 
-For_Submission
-|__ Processing_Data.ipynb     	#first notebook to preprocess data
-|__ Analysis.ipynb    	 	#second notebook for data analysis. this notebook uses combined_500Hz_21102023.csv     
-|__ Other_Exploration.ipynb  	#third notebook with other data exploration methods (not in report)
-|
-|__ fig (folder)
-|     |__ Butterworth.jpeg
-|     |__ Jerk.jpeg
-|     |__ RMSFormula.jpeg
-|     |__ RMSTABLE.jpeg
-|     |__ Wavelet.jpeg
-|
-|__ Raw_Data (folder)
-|     |__ CL1
-|     |         |__ 266 .tar files
-|     |__ CL2
-|     |         |__ 718 .tar files
-|     |__ FL1
-|     |         |__ 1643 .tar files
-|     |__ FL2
-|     |         |__ 2090 .tar files
-|     |__ PL1
-|     |         |__ 5610 .tar files
-|     |__ PL2
-|               |__ 4329 .tar files
-|
-|__ Extracted_Data (empty folder)
-|__ Combined.csv    #file will be generated after running the "Processing_Data.ipynb" notebook, but file is here as the running process takes a long wait 
-|__ test_compile_test.csv
-|__ combined_500Hz_21102023.csv
-| 
-|__ test (folder)
-|     |__ 003354   (folder with the trip's information)
-|     |__ 234622   ( folder with the trip's information)
-|     |__ 235056   (folder with the trip's information)
-|
-|__ Combine (folder)
-      |__ test_compile_CL1
-      |__ test_compile_CL2
-      |__ test_compile_FL1
-      |__ test_compile_FL2
-      |__ test_compile_PL1
-      |__ test_compile_PL2
